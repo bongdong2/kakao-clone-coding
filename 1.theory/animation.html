@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transformations</title>
+    <style>
+      .box {
+        width: 500px;
+        height: 500px;
+        background-color: red;
+        animation: 1.5s scaleAndRotateSquare2 ease-in-out infinite;
+      }
+      @keyframes scaleAndRotateSquare {
+        from {
+          transform: none;
+        }
+        to {
+          transform: rotate(1turn) scale(0.5, 0.5);
+        }
+      }
+      @keyframes scaleAndRotateSquare2 {
+        0% {
+          transform: none;
+        }
+        50% {
+          transform: rotate(1turn) scale(0.5, 0.5);
+        }
+        100% {
+          transform: none;          
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></header>
+  </body>
+</html>

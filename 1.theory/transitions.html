@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transitions</title>
+    <style>
+      .box {
+        background-color: green;
+        color: white;
+        transition: background-color 0.5s ease-in-out;
+        /* background-color 글자색에도 애니메이션 적용하고 싶다면 'background-color' 대신  'all' */
+      }
+      .box:hover {
+        /* hover, active, focus, visited */
+        background-color: red;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <span class="box">
+      text
+    </span>
+  </body>
+</html>
