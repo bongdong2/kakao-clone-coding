@@ -3,30 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
-      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+    <script
+      src="https://kit.fontawesome.com/8b72956ff8.js"
       crossorigin="anonymous"
-    />
-    <title>Find | Kakao Clone</title>
+    ></script>
+    <title>Chats | KaKao Clone</title>
   </head>
   <body>
     <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:54 </span>
+      <div class="status-bar__colum">
+        <span class="status-bar__clock">13:34</span>
       </div>
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
+      <div class="status-bar__colum">
+        <i class="far fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <span class="status_bar__battery-level">100%</span>
+        <span class="status-bar__battery-level">100%</span>
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header__title">Find</h1>
+        <h1 class="header__title">Chats</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
@@ -40,8 +38,25 @@
         </span>
       </div>
     </header>
+    <main class="chats">
+      <ul class="chats__list">
+        <li class="chats__chat">
+          <div class="chat__column">
+            <img class="chat__avatar" src="/image/iu.jpg"
+            <div class="chat__content"></div>
+            <span class="chat__username">
+              Lynn
+            </span>
+            <span class="chat__preview">Going home</span>
+          </div>
+          <div class="chat__colum">
+            <span class="chat__timestamp">Yesterday</span>
+          </div>          
+        </li>
+      </ul>
+    </main>
     <nav class="nav">
-      <ul class="nav__list">
+      <ul class="nav_list">
         <li class="nav__list-item">
           <a href="/friends.html" class="nav__list-link">
             <i class="far fa-user"></i>
@@ -49,7 +64,7 @@
         </li>
         <li class="nav__list-item">
           <a href="/index.html" class="nav__list-link">
-            <i class="far fa-comment"></i>
+            <i class="fas fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
